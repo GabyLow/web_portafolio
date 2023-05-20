@@ -1,0 +1,337 @@
+/* Estilos Generales */
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+    font-weight: bold;
+}
+/* Barra de Navegacion */
+
+.navbar{
+    background-color: #000000;
+    font-family: 'Viga', sans-serif;
+    color: #00ffff;
+}
+
+.navbar-brand {
+    height: 80px;
+    
+    
+
+}
+
+.navbar-collapse {
+  align-items:center ;
+  justify-content: space-between;
+    
+}
+
+/* Seccion hero */
+
+.hero {
+background-image: url(imagenes/banner-head.jpg);
+height: 400px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: #0ca4d7;
+    font-family: 'Rubik Dirt';
+    text-align: center;
+    position: relative;
+    
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    color: #9df6f6;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    position: relative;
+    
+}
+/* Seccion Sobre mi */
+
+.sobre-mi {
+    height: 400px;
+    padding: 10px;
+    color: #adadad;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+background-color: #000000;
+}
+
+.hero-imagen-perfil {
+    width: 250px;
+    height: 350px;
+    border-radius: 10%;
+    margin: 20px;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    color: #adadad;
+    font-family: 'Rubik Dirt';
+}
+
+.seccion-texto {
+    font-size: 1.5rem;
+    color: #494949;
+    font-family: 'Viga', sans-serif;
+}
+
+/* seccion experiencia */
+
+.experiencia {
+    padding: 40px 40px 60px 40px;
+    background-color: #000000;
+    color: #494949;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #4949493d;
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.3 ease-in;
+}
+
+.experiencia .columna:hover {
+    background-color: #f0f8ff;
+
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #adadad;
+}
+
+.experiencia-texto {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #646464;
+    font-family: 'Viga', sans-serif;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #d70c7b;
+    background-color: #131318;
+    padding: 8px 19px;
+    border-radius: 50%;
+
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+/*seccion proyectos*/
+
+.proyectos-recientes {
+    padding: 40px;
+    background-color: #000000;
+    color: #adadad;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+   padding-top: 60px;
+   margin-bottom: 40px ; 
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: #494949;
+    font-size: 60px;
+    margin: 10px;
+}
+
+/* testimonios */
+
+.testimonios {
+    background-color: #000000;
+    color: #adadad;
+    text-align: center;
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.testimonios .carousel {
+    width: 50%;
+    max-width: 800px;
+    display: inline-block;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+}
+
+.testimonio-footer .cliente {
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+}
+/* contacto */
+
+.contacto .container {
+    max-width:  1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: #d70c7b;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px #00ffff
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: #adadad; 
+    font-size: 1rem;
+    font-family: 'Viga', sans-serif;
+}
+
+.contacto button {
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: #00ffff;
+}
+ .contacto button i {
+    color: #adadad;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+ }
+
+ /* footer */
+
+ footer {
+    min-height: 500px;
+    background-color: #000000;
+
+ }
+
+ .footer-logo {
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+ }
+
+ .footer-texto {
+    font-size: 3rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: #d70c7b;
+ }
+
+ .iconos-redes-sociales a {
+    font-size: 3rem;
+    color: #646464;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 2px solid #d70c7b;
+ }
+
+ .derechos-de-autor {
+    font-size: 15px;
+    color: #00ffff;
+    padding: 20px;
+ }
