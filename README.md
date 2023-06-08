@@ -24,5 +24,6 @@ Resultado: El resultado final fue un portafolio en línea elegante y profesional
 Este proyecto no solo demuestra mi dominio de HTML y Bootstrap, sino también mi capacidad para crear sitios web atractivos y funcionales.
 
 
-![portafolio1](https://github.com/GabyLow/web_portafolio/assets/127358083/8f013ec8-f5f8-4694-b974-4d6f8711057f)
-![portafolio2](https://github.com/GabyLow/web_portafolio/assets/127358083/eed6a6d4-16e9-4116-9f0f-477f1a6a6bad)
+![Portafolio1](https://github.com/GabyLow/web_portafolio/assets/127358083/e1eb47b5-3e50-418d-a45d-982cdc151f9b)
+![Portafolio2](https://github.com/GabyLow/web_portafolio/assets/127358083/e3f1ae84-51b3-4673-8076-4ff374b8851a)
+
