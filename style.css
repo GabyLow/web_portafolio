@@ -29,7 +29,7 @@
 
 .hero {
 background-image: url(imagenes/banner-head.jpg);
-height: 400px;
+height: 200px;
 background-size: cover;
 display: flex;
 flex-direction: column;
@@ -59,7 +59,7 @@ align-items: center;
 
 .sobre-mi {
     height: 350px;
-    padding: 10px;
+    padding: 30px 5px;
     color: #adadad;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@ background-color: #000000;
 }
 
 .seccion-texto {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #494949;
     font-family: 'Viga', sans-serif;
 }
@@ -90,7 +90,7 @@ background-color: #000000;
 /* seccion experiencia */
 
 .experiencia {
-    padding: 300px 40px 60px 40px;
+    padding: 400px 40px 60px 40px;
     background-color: #000000;
     color: #494949;
 }
@@ -106,7 +106,7 @@ background-color: #000000;
 }
 
 .experiencia .columna:hover {
-    background-color: #f0f8ff;
+    background-color: #d2fcff;
 
 }
 
@@ -278,8 +278,9 @@ background-color: #000000;
 
 .contacto .descripcion {
     color: #adadad; 
-    font-size: 1rem;
-    font-family: 'Viga', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
 .contacto button {
