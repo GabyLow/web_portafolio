@@ -27,6 +27,4 @@ ver proyecto en vivo:
 https://gabylow.github.io/web_portafolio/
 
 
-![Portafolio1](https://github.com/GabyLow/web_portafolio/assets/127358083/e1eb47b5-3e50-418d-a45d-982cdc151f9b)
-![Portafolio2](https://github.com/GabyLow/web_portafolio/assets/127358083/e3f1ae84-51b3-4673-8076-4ff374b8851a)
-
+![proyecto3](https://github.com/GabyLow/web_portafolio/assets/127358083/069b6497-b552-42e2-b2ad-1296e4a05649)
