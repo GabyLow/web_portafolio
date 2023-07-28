@@ -3,6 +3,7 @@
     font-size: 1.1rem;
     margin: 20px;
     font-weight: bold;
+    box-shadow: 0px 1px 20px 1px #00ffff
 }
 /* Barra de Navegacion */
 
@@ -73,6 +74,7 @@ background-color: #000000;
     height: 250px;
     border-radius: 100%;
     margin: 30px;
+    box-shadow: 0px 1px 30px 1px #00ffff
 }
 
 .seccion-titulo {
